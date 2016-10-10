@@ -25,7 +25,6 @@ public class Demo3Activity extends AppCompatActivity {
         viewPager = (ScrollerViewPager) findViewById(R.id.view_pager);
         SpringIndicator springIndicator = (SpringIndicator) findViewById(R.id.indicator);
 
-
         PagerModelManager manager = new PagerModelManager();
         manager.addCommonFragment(GuideFragment.class, getBgRes(), getTitles());
         ModelPagerAdapter adapter = new ModelPagerAdapter(getSupportFragmentManager(), manager);
@@ -43,10 +42,10 @@ public class Demo3Activity extends AppCompatActivity {
 
     private List<Integer> getBgRes() {
         return Lists.newArrayList(
-                R.drawable.idp
-                , R.drawable.idq
-                , R.drawable.idr
-                , R.drawable.ids);
+                R.drawable.p1
+                , R.drawable.p2
+                , R.drawable.p3
+                , R.drawable.p4);
     }
 
 }
