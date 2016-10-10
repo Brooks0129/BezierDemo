@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TableLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/activity_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        tools:context="com.brooks.bezierdemo.MainActivity">
+    <TableRow>
+        <Button
+
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:id="@+id/demo1"
+                android:text="qq拖动删除"/>
+        <Button
+
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:id="@+id/demo2"
+                android:text="下拉刷新水滴效果"/>
+    </TableRow>
+    <TableRow>
+        <Button
+
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:id="@+id/demo3"
+                android:text="标签切换"/>
+        <Button
+
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:id="@+id/demo4"
+                android:text="直播间点赞效果"/>
+    </TableRow>
+    <TableRow>
+        <Button
+
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:id="@+id/demo5"
+                android:text="商品添加至购物车效果"/>
+        <Button
+
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:id="@+id/demo6"
+                android:text="翻书效果"/>
+    </TableRow>
+</TableLayout>
