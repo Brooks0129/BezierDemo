@@ -18,4 +18,11 @@
         <attr name="bottomcircle_x" format="dimension"/>
         <attr name="bottomcircle_y" format="dimension"/>
     </declare-styleable>
+    <declare-styleable name="BezierLoadingView">
+        <attr name="lv_external_radius" format="dimension"></attr>
+        <attr name="lv_internal_radius" format="dimension"></attr>
+        <attr name="lv_duration" format="integer"></attr>
+        <attr name="lv_start_color" format="color"></attr>
+        <attr name="lv_end_color" format="color"></attr>
+    </declare-styleable>
 </resources>

@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
           package="com.brooks.bezierdemo">
 
@@ -27,6 +26,10 @@
         <activity android:name=".demo5.Demo5Activity">
         </activity>
         <activity android:name=".demo6.Demo6Activity">
+        </activity>
+        <activity android:name=".demo7.Demo7Activity">
+        </activity>
+        <activity android:name=".demo8.Demo8Activity">
         </activity>
     </application>
 

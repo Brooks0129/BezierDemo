@@ -59,4 +59,20 @@
                 android:id="@+id/demo6"
                 android:text="翻书效果"/>
     </TableRow>
+    <TableRow>
+        <Button
+
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:id="@+id/demo7"
+                android:text="加载效果"/>
+        <Button
+
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:id="@+id/demo8"
+                android:text="图标转换"/>
+    </TableRow>
 </TableLayout>

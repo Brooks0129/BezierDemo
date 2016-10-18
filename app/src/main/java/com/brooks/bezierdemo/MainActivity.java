@@ -8,6 +8,8 @@ import com.brooks.bezierdemo.demo3.Demo3Activity;
 import com.brooks.bezierdemo.demo4.Demo4Activity;
 import com.brooks.bezierdemo.demo5.Demo5Activity;
 import com.brooks.bezierdemo.demo6.Demo6Activity;
+import com.brooks.bezierdemo.demo7.Demo7Activity;
+import com.brooks.bezierdemo.demo8.Demo8Activity;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -27,6 +29,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         findViewById(R.id.demo4).setOnClickListener(this);
         findViewById(R.id.demo5).setOnClickListener(this);
         findViewById(R.id.demo6).setOnClickListener(this);
+        findViewById(R.id.demo7).setOnClickListener(this);
+        findViewById(R.id.demo8).setOnClickListener(this);
 
     }
 
@@ -51,6 +55,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.demo6:
                 startActivity(new Intent(MainActivity.this, Demo6Activity.class));
                 break;
+            case R.id.demo7:
+                startActivity(new Intent(MainActivity.this, Demo7Activity.class));
+                break;
+            case R.id.demo8:
+                startActivity(new Intent(MainActivity.this, Demo8Activity.class));
         }
     }
 }
