@@ -183,7 +183,6 @@ public class TipBubble extends FrameLayout {
         path.quadTo(anchorX, anchorY, x2, y2);
         path.lineTo(x3, y3);
         path.quadTo(anchorX, anchorY, x4, y4);
-
         path.lineTo(x1, y1);
         tips.setX(x - tips.getWidth() / 2);
         tips.setY(y - tips.getHeight() / 2);
